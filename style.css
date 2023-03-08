@@ -1,0 +1,63 @@
+canvas  {
+  position: fixed;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+}
+
+.name {
+  font-size: 3rem;
+  font-family: Calibri, sans-serif;
+  color: whitesmoke;
+  padding-top: 8%;
+  text-align: center;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.nav_items  {
+  display: inline;
+  list-style: none;
+}
+
+.nav_link {
+  position: relative;
+  display: inline;
+  color: whitesmoke;
+}
+
+ul li {
+  display: inline;
+  padding: 20px;
+  color: whitesmoke;
+}
+
+a {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.nav__button {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: none;
+  background-color: inherit;
+  
+}
+
+.nav__button:hover {
+  color: #0A58CA;
+}
+
+#about  {
+  color: rgb(61, 61, 61);
+  font-family: Calibri, sans-serif;
+  padding-top: 2%;
+  padding-left: 30px;
+  padding-right:30px;
+}
