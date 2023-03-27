@@ -60,7 +60,7 @@ function animate() {
   window.console.log(boat.position);
   if((boat.position.z < -30) || (boat.position.z > 0))  {
   
-    boat.rotation.z += 0.009;
+    boat.rotation.z += 0.012;
   }
 }
 

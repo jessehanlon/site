@@ -9,8 +9,9 @@ canvas  {
   font-size: 3rem;
   font-family: Calibri, sans-serif;
   color: whitesmoke;
-  padding-top: 8%;
-  text-align: center;
+  padding-top: 4%;
+  display: flex;
+  justify-content: center;
 }
 
 .nav{
@@ -32,7 +33,7 @@ canvas  {
 
 ul li {
   display: inline;
-  padding: 20px;
+  padding-right: 32px;
   color: whitesmoke;
 }
 
@@ -57,7 +58,27 @@ a {
 #about  {
   color: rgb(61, 61, 61);
   font-family: Calibri, sans-serif;
-  padding-top: 2%;
+  
   padding-left: 30px;
   padding-right:30px;
+  background: rgba(240, 240, 240, .5);
+  margin: auto;
+}
+
+@media screen and (max-width:800px){
+  
+  a {
+    font-size: 1.2rem;
+  }
+  .nav__button {
+    font-size: 1.2rem;
+    
+  }
+
+  ul li {
+    display: inline;
+    padding-right: 35px;
+    color: whitesmoke;
+  }
+
 }
