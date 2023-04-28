@@ -9,8 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="'style.css">
     <link rel="icon" type="image/png" href="./assets/favicon-45e5067e.png">
-    <script type="module" crossorigin src="./assets/index-07fd9887.js"></script>
-    <link rel="stylesheet" href="./assets/index-6f7c80f5.css">
+    <script type="module" crossorigin src="./assets/index-abbd4b81.js"></script>
+    <link rel="stylesheet" href="./assets/index-63abacc9.css">
   </head>
   <body>
 
@@ -29,15 +29,21 @@
         <li class="nav__item"><a href="mailto:jjhanlon@mun.ca" class="nav__link">Contact</a></li>
       </ul>
     </div>  
-      
-    <div id="about" style="display:none;">
-      Hi! I'm a full-stack software developer based in St. John's, Newfoundland, with a background in math. I graduated from Memorial University with a BSc. in 2023. My most used languages are Python, JavaScript, Java, and HTML/CSS. I'm most interested in machine learning, artificial intelligence, and complexity.<br> Besides development, I am an avid sailor, often racing or cruising around atlantic Canada. Currently refitting a Morrison 12 International 14.
+    <div id="about-parent"> 
+      <div id="about" style="display:none;">
+        I'm a software developer based in St. John's, Newfoundland. <br>I majored in computer science and mathematics at Memorial University and graduated in 2023. 
+        <br>My Skills: JavaScript, Python, Java, C++, HTML/CSS, Node, React, MongoDB, SQL, AWS
+      </div>
     </div>
-    
     <script>
       function showDiv()  {
-        document.getElementById('about').style.display = "block";
-}
+        if(document.getElementById('about').style.display == "none") {
+          document.getElementById('about').style.display = "block";
+        }
+        else {
+          document.getElementById('about').style.display = "none"
+        }
+      }
     </script>
       <canvas id="bg"></canvas>
       
